@@ -1,0 +1,34 @@
+Etapes : 
+1/ Chargement aléatoire de la grille
+2/ Supprimer les diamants collé par 3
+3/ Démarage du jeux : timer...
+4/ Le joueur clique sur un diamant pour échanger avec un autre
+5/ Vérifier si le coup est possible
+6/ Si le coup est possible faire exploser les diamants
+7/ Chutte des diamants
+8/ Vérifier si de nouveaux diamants explose ou pas
+
+Tout le temps vérifier s'il reste des solutions.
+
+
+Affichage du menu
+menu.h
+	Prototypes
+	void afficherMenu(SDL_Surface *screen);
+	
+menu.cc
+	void afficherMenu(...){ ... }
+	
+
+plateau.h
+	Prototypes
+	void verifierSolutionsPossible(...);
+plateau.cc
+
+
+diamant.h
+	Prototypes
+	void explosionDiamant(...);
+	void chutteDiamant(...);
+	void echangerDiamant(...);
+diamant.cc
