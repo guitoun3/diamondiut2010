@@ -1,0 +1,10 @@
+Génération du plateau : 
+# Constantes 
+	. SCREEN_WIDTH : largeur fenetre
+	. SCREEN_HEIGHT : hauteur fenetre
+	. PLATEAU_WIDTH : largeur plateau jeu
+	. PLATEAU_HEIGHT : hauteur plateau jeu
+	. NB_CASE_X : Nombre de case horizontale
+	. NB_CASE_Y : Nombre de case verticale
+	. CASE_WIDTH = PLATEAU_WIDTH/NB_CASE_X
+	. CASE_HEIGHT = PLATEAU_HEIGHT/NB_CASE_Y
